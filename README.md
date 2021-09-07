@@ -2,9 +2,10 @@
 
 URL Shortener program
 
-#Installation
+# Installation
 
-##Database
+## Database
+
 Ensure that MySQL Community Server is downloaded
 Here is a link to download MySQL[Link](https://dev.mysql.com/downloads/mysql/ "MySQL Community Server").
 
@@ -34,7 +35,8 @@ With this, database has been properly established.
 
 #Client-Server Application
 
-##Frontend
+## Frontend
+
 The frontend code was created using react.
 
 cd into frontend/ directory and run the code
@@ -43,7 +45,7 @@ cd into frontend/ directory and run the code
 yarn start
 ```
 
-##Backend
+## Backend
 
 It is suggested that the user creates a virtual environment first before installing all dependencies and modules
 
