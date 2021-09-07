@@ -7,7 +7,7 @@ URL Shortener program
 ## Database
 
 Ensure that MySQL Community Server is downloaded
-Here is a link to download MySQL[Link](https://dev.mysql.com/downloads/mysql/ "MySQL Community Server").
+Here is a link to download MySQL[MySQL](https://dev.mysql.com/downloads/mysql/ "MySQL Community Server").
 
 Once the server has been downloaded and installed properly, run in Terminal this code
 
