@@ -1,5 +1,3 @@
-import mysql.connector
-from mysql.connector import connect, Error
 import hashlib
 from datetime import datetime
 

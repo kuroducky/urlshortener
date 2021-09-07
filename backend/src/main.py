@@ -27,11 +27,6 @@ def encode():
 
         date = curr_year + '-' + curr_month + '-' + curr_day
 
-        # Get your data from frontend
-        # jsonInput = request.json
-        # data = json.loads(jsonInput)
-        # inputString = data["params"]["url_string"]
-
         data = request.json
         inputString = data["params"]["url_string"]
         print("The input string is : ", inputString)
@@ -46,7 +41,7 @@ def encode():
             records = connection.execute('SELECT * FROM url_tbl')
 
             for eachRow in records:
-                if eachRow[1] == outputString:
+                if eachRow[1] == shortenedString:
                     logic = 1
                     outputString = "http://localhost:8000/" + shortenedString
                     print(outputString)
@@ -78,8 +73,6 @@ def getOriginalUrl(shortened_url):
                         return redirect("https://" + eachRow[2], code=302)
         except Error as e:
             print(e)
-
-    return ""
 
 
 if __name__ == "__main__":
