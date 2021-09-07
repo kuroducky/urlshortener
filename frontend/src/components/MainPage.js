@@ -40,7 +40,7 @@ function MainPage(){
                 <p>Snap long URLs into bite size ones</p>
                 <input onChange={(e) => {setTextValue(e.target.value)}} placeholder="Insert URL here..." type="text" className="urlfield" value ={textValue}/>
                 <button type="button" onClick={() => {sendURLData(textValue)}}><span></span>CONVERT</button>
-                {shortenedURL !== "" && <button onClick={() =>  navigator.clipboard.writeText(shortenedURL)}>{shortenedURL}</button>}
+                {shortenedURL !== "" && <button onClick={() =>  navigator.clipboard.writeText(shortenedURL)}><span></span>{shortenedURL}</button>}
             </div>
         </div>
     );
