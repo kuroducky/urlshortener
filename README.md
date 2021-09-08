@@ -42,7 +42,7 @@ The frontend code was created using react.
 cd into frontend/ directory and run the code
 
 ```console
-yarn add react-scripts
+yarn
 yarn start
 ```
 
