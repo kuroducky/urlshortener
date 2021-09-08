@@ -42,8 +42,12 @@ The frontend code was created using react.
 cd into frontend/ directory and run the code
 
 ```console
+yarn add react-scripts
 yarn start
 ```
+
+The frontend server is currently running on PORT=3000.
+Do ensure that the PORT 3000 is currently not in used as it might cause errors.
 
 ## Backend
 

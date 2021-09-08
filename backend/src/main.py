@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 cors = CORS(app, resources={r'/*': {'origins': '*'}})
 app.config['CORS_HEADER'] = 'Content-Type'
-# app.config["SQLALCHEM_DATABASE_URI"] = 'mysql://root:yourpasswd@localhost/url_db'
+# app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://root:yourpasswd@localhost/url_db'
 engine = create_engine('mysql://root:yourpasswd@localhost/url_db')
 
 
